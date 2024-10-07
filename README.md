@@ -47,4 +47,4 @@ A freelancing platform that connects businesses with independent professionals i
 | /users/:id             | DELETE      | Delete the user by id   | N/A            | 200                   | Login required /Must be the project owner          |
 
 ### DB Schema
-![]( {{ ./relative/path/to/your/schema/image.png }} )
+![]( db_schema.png )
