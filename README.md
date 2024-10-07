@@ -1,9 +1,9 @@
-# django_project_backend
+# Django Project Back End
 Brittany Evans
 
 ## Planning:
 ### Concept/Name
-Connect businesses with independent professionals
+A freelancing platform that connects businesses with independent professionals in tech and design. It offers a space for companies to post jobs and for freelancers to showcase their skills and submit project proposals.
 
 ### Intended Audience/User Stories
 - Businesses hiring for a project
@@ -25,15 +25,26 @@ Connect businesses with independent professionals
     - Submit a proposal
 
 ### API Spec
-{{ Fill out the table below to define your endpoints. An example of what this might look like is shown at the bottom of the page. 
 
-It might look messy here in the PDF, but once it's rendered it looks very neat! 
-
-It can be helpful to keep the markdown preview open in VS Code so that you can see what you're typing more easily. }}
-
-| URL | HTTP Method | Purpose | Purpose | Request Body | Success Response Code | Authentication/Authorisation |
-| --- | ----------- | ------- | ------- | ------------ | --------------------- | ---------------------------- |
-|     |             |         |         |              |                       |                              |
+| URL                    | HTTP METHOD | PURPOSE                 | REQUEST BODY   | SUCCESS RESPONSE CODE | AUTHENTICATION/AUTHORISATION                       |
+| ---------------------- | ----------- | ----------------------- | -------------- | --------------------- | -------------------------------------------------- |
+| /projects/             | GET         | Return all projects     | N/A            | 200                   | N/A                                                |
+| /projects/:id          | GET         | Return a project by id  | N/A            | 200                   | N/A                                                |
+| /projects/             | POST        | Create a new project    | Project object | 201                   | Login required                                     |
+| /projects/:id          | PUT         | Update the project      | Project object | 200                   | Login required /Must be the project owner          |
+| /projects/:id          | DELETE      | Delete the project      | N/A            | 200                   | Login required /Must be the project owner          |
+|                        |             |                         |                |                       |                                                    |
+| /pledges/              | GET         | Return all pledges      | N/A            | 200                   | N/A                                                |
+| /pledges/:id           | GET         | Return a pledge by id   | N/A            | 200                   | N/A                                                |
+| /pledges/              | POST        | Create a pledge         | Pledge object  | 201                   | Login required                                     |
+| /pledges/:id           | PUT         | Update a pledge         | Pledge object  | 200                   | Login required /Must be the project owner          |
+| /pledges/:id           | DELETE      | Delete a pledge by id   | N/A            | 200                   | Login required /Must be the project owner          |
+|                        |             |                         |                |                       |                                                    |
+| /users/                | GET         | Returns all users       | N/A            | 200                   | N/A                                                |
+| /users/                | POST        | Create user account     | User object    | 201                   | N/A                                                |
+| /users/login           | POST        | Login                   | User object    | 201                   | N/A                                                |
+| /users/:id             | PUT         | Update the user by id   | User object    | 200                   | Login required /Must be the project owner          |
+| /users/:id             | DELETE      | Delete the user by id   | N/A            | 200                   | Login required /Must be the project owner          |
 
 ### DB Schema
 ![]( {{ ./relative/path/to/your/schema/image.png }} )
