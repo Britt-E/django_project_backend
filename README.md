@@ -24,6 +24,46 @@ A freelancing platform that connects businesses with independent professionals i
     - Search projects
     - Submit a proposal
 
+### Create A New User
+1. Create a new HTTP request - POST
+2. URL: http://localhost:8000/users/
+3. Request Body -> JSON. Enter required user details in JSON:
+    
+        {
+            "username": "{username}",
+            "password": "{password}"
+            "email": "{email}"
+        }
+4. Success code 201.
+
+Create A Token
+1. Create a new HTTP Request - POST
+2. URL: http://localhost:8000/api-token-auth/
+3. Request Body -> JSON. Enter the username and password of a user you want to generate a token for:
+
+       {
+		"username": "{username}",
+		"password" : "{password}"
+	    }
+5. Sucess code 200.
+6. Enter this token in Auth -> Bearer Token for any requests that require authentication. 
+   - Token = [user_token]
+   - Prefix = Token
+  
+### Create a New Project
+1. Create a new HTTP request - POST
+2. URL: http://localhost:8000/projects/
+3. Request Body -> JSON. Enter project details in JSON:
+
+        {
+            "title": "title",
+            "description": "description",
+            "goal": amount,
+            "image": "image_URL",
+            "is_open": true/false,
+            "date_created": "ISO 8601 string"
+        }
+   
 ### API Spec
 
 | URL                    | HTTP METHOD | PURPOSE                 | REQUEST BODY   | SUCCESS RESPONSE CODE | AUTHENTICATION/AUTHORISATION                       |
