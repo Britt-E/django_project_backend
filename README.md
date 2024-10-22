@@ -88,3 +88,13 @@ Create A Token
 
 ### DB Schema
 ![]( db_schema.png )
+
+### INSOMNIA
+Successful GET request
+![]( crowdfunding/images/GETpledges.png )
+
+Successful POST request
+![]( crowdfunding/images/POSTproject.png )
+
+Successful TOKEN return
+![]( crowdfunding/images/returntoken.png )
