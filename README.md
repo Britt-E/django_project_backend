@@ -31,7 +31,7 @@ A freelancing platform that connects businesses with independent professionals i
     
         {
             "username": "{username}",
-            "password": "{password}"
+            "password": "{password}",
             "email": "{email}"
         }
 4. Success code 201.
