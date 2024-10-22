@@ -22,11 +22,11 @@ A freelancing platform that connects businesses with independent professionals i
 - User Profile
     - Update profile
     - Search projects
-    - Submit a proposal
+    - Submit a pledge
 
 ### Create A New User
 1. Create a new HTTP request - POST
-2. URL: http://localhost:8000/users/
+2. URL: https://django-britt-c5e00d2fa1ad.herokuapp.com/users/
 3. Request Body -> JSON. Enter required user details in JSON:
     
         {
@@ -38,7 +38,7 @@ A freelancing platform that connects businesses with independent professionals i
 
 Create A Token
 1. Create a new HTTP Request - POST
-2. URL: http://localhost:8000/api-token-auth/
+2. URL: https://django-britt-c5e00d2fa1ad.herokuapp.com/api-token-auth/
 3. Request Body -> JSON. Enter the username and password of a user you want to generate a token for:
 
        {
@@ -52,7 +52,7 @@ Create A Token
   
 ### Create a New Project
 1. Create a new HTTP request - POST
-2. URL: http://localhost:8000/projects/
+2. URL: https://django-britt-c5e00d2fa1ad.herokuapp.com/projects/
 3. Request Body -> JSON. Enter project details in JSON:
 
         {
