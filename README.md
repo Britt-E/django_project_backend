@@ -91,7 +91,7 @@ Create A Token
 
 ### INSOMNIA
 Successful GET request
-![]( crowdfunding/images/GETpledges.png )
+![]( crowdfunding/images/GETusers.png )
 
 Successful POST request
 ![]( crowdfunding/images/POSTproject.png )
