@@ -3,11 +3,10 @@ Brittany Evans
 
 ## Planning:
 ### Concept/Name
-A freelancing platform that connects businesses with independent professionals in tech and design. It offers a space for companies to post jobs and for freelancers to showcase their skills and submit project proposals.
+A platform where skilled individuals volunteer their time to assist others with tech and design projects, fostering collaboration and knowledge-sharing.
 
 ### Intended Audience/User Stories
-- Businesses hiring for a project
-- Freelancers looking for work
+The platform would cater to a wide range of individuals and organisations, from those needing assistance on their projects to those offering their expertise to foster collaboration and growth.
 
 ### Front End Pages/Functionality
 - Home Page
