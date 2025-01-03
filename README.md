@@ -2,10 +2,10 @@
 Brittany Evans
 
 ## Planning:
-### Concept/Name
+### Concept
 A platform where skilled individuals volunteer their time to assist others with tech and design projects, fostering collaboration and knowledge-sharing.
 
-### Intended Audience/User Stories
+### Intended Audience
 The platform would cater to a wide range of individuals and organisations, from those needing assistance on their projects to those offering their expertise to foster collaboration and growth.
 
 ### Front End Pages/Functionality
